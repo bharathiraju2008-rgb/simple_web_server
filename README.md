@@ -1,6 +1,6 @@
 # EX01 Developing a Simple Webserver
 
-# Date:
+# Date:23.09.2025
 # AIM:
 To develop a simple webserver to serve html pages and display the configuration details of laptop.
 
@@ -21,8 +21,24 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
+```
+from http.server import HTTPServer, BaseHTTPRequestHandler
+content = """
+<!DOCTYPE html>
+<html>
+<head>
+<title>My webserver</title>
+</head>
+<body>
+<h1>Welcome to my server<h1>
+</body>
+</html>
+"""
 
-# OUTPUT:
+# OUTPUT :
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 # RESULT:
 The program for implementing simple webserver is executed successfully.

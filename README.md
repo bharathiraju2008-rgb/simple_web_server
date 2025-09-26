@@ -36,9 +36,12 @@ content = """
 ```
 
 # OUTPUT :
-![alt text](image-1.png)
 
-![alt text](image-2.png)
+![alt text](<Screenshot 2025-09-23 161502-1.png>)
+
+
+![alt text](<Screenshot 2025-09-23 161541-1.png>)
+
 
 # RESULT:
 The program for implementing simple webserver is executed successfully.
